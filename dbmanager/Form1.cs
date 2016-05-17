@@ -16,5 +16,10 @@ namespace dbmanager
         {
             InitializeComponent();
         }
+
+        private void medlemToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

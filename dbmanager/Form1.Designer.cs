@@ -32,17 +32,17 @@
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.hejToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.närvaroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.medlemToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.kontaktToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.endToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.avslutaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tvåToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.hjälpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.omToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.omToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.visaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.närvarolistorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.medlemmarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.medlemToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.kontaktToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.hjälpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.omToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.omToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -82,19 +82,32 @@
             // närvaroToolStripMenuItem
             // 
             this.närvaroToolStripMenuItem.Name = "närvaroToolStripMenuItem";
-            this.närvaroToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
+            this.närvaroToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.närvaroToolStripMenuItem.Text = "Närvaro";
+            // 
+            // medlemToolStripMenuItem
+            // 
+            this.medlemToolStripMenuItem.Name = "medlemToolStripMenuItem";
+            this.medlemToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.medlemToolStripMenuItem.Text = "Medlem";
+            this.medlemToolStripMenuItem.Click += new System.EventHandler(this.medlemToolStripMenuItem_Click);
+            // 
+            // kontaktToolStripMenuItem
+            // 
+            this.kontaktToolStripMenuItem.Name = "kontaktToolStripMenuItem";
+            this.kontaktToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.kontaktToolStripMenuItem.Text = "Kontakt";
             // 
             // endToolStripMenuItem
             // 
             this.endToolStripMenuItem.Name = "endToolStripMenuItem";
-            this.endToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
+            this.endToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.endToolStripMenuItem.Text = "Inställningar";
             // 
             // avslutaToolStripMenuItem
             // 
             this.avslutaToolStripMenuItem.Name = "avslutaToolStripMenuItem";
-            this.avslutaToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
+            this.avslutaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.avslutaToolStripMenuItem.Text = "Avsluta";
             // 
             // tvåToolStripMenuItem
@@ -102,27 +115,6 @@
             this.tvåToolStripMenuItem.Name = "tvåToolStripMenuItem";
             this.tvåToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
             this.tvåToolStripMenuItem.Text = "Redigera";
-            // 
-            // hjälpToolStripMenuItem
-            // 
-            this.hjälpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.omToolStripMenuItem,
-            this.omToolStripMenuItem1});
-            this.hjälpToolStripMenuItem.Name = "hjälpToolStripMenuItem";
-            this.hjälpToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
-            this.hjälpToolStripMenuItem.Text = "Hjälp";
-            // 
-            // omToolStripMenuItem
-            // 
-            this.omToolStripMenuItem.Name = "omToolStripMenuItem";
-            this.omToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
-            this.omToolStripMenuItem.Text = "Visa hjälp";
-            // 
-            // omToolStripMenuItem1
-            // 
-            this.omToolStripMenuItem1.Name = "omToolStripMenuItem1";
-            this.omToolStripMenuItem1.Size = new System.Drawing.Size(124, 22);
-            this.omToolStripMenuItem1.Text = "Om";
             // 
             // visaToolStripMenuItem
             // 
@@ -136,26 +128,35 @@
             // närvarolistorToolStripMenuItem
             // 
             this.närvarolistorToolStripMenuItem.Name = "närvarolistorToolStripMenuItem";
-            this.närvarolistorToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.närvarolistorToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.närvarolistorToolStripMenuItem.Text = "Närvarolistor";
             // 
             // medlemmarToolStripMenuItem
             // 
             this.medlemmarToolStripMenuItem.Name = "medlemmarToolStripMenuItem";
-            this.medlemmarToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.medlemmarToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.medlemmarToolStripMenuItem.Text = "Medlemmar";
             // 
-            // medlemToolStripMenuItem
+            // hjälpToolStripMenuItem
             // 
-            this.medlemToolStripMenuItem.Name = "medlemToolStripMenuItem";
-            this.medlemToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.medlemToolStripMenuItem.Text = "Medlem";
+            this.hjälpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.omToolStripMenuItem,
+            this.omToolStripMenuItem1});
+            this.hjälpToolStripMenuItem.Name = "hjälpToolStripMenuItem";
+            this.hjälpToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
+            this.hjälpToolStripMenuItem.Text = "Hjälp";
             // 
-            // kontaktToolStripMenuItem
+            // omToolStripMenuItem
             // 
-            this.kontaktToolStripMenuItem.Name = "kontaktToolStripMenuItem";
-            this.kontaktToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.kontaktToolStripMenuItem.Text = "Kontakt";
+            this.omToolStripMenuItem.Name = "omToolStripMenuItem";
+            this.omToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.omToolStripMenuItem.Text = "Visa hjälp";
+            // 
+            // omToolStripMenuItem1
+            // 
+            this.omToolStripMenuItem1.Name = "omToolStripMenuItem1";
+            this.omToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.omToolStripMenuItem1.Text = "Om";
             // 
             // Form1
             // 
