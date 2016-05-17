@@ -43,7 +43,6 @@
             this.hjälpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.omToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.omToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.button1 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -159,21 +158,11 @@
             this.omToolStripMenuItem1.Size = new System.Drawing.Size(124, 22);
             this.omToolStripMenuItem1.Text = "Om";
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(140, 110);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(597, 445);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
@@ -202,7 +191,6 @@
         private System.Windows.Forms.ToolStripMenuItem medlemmarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem medlemToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem kontaktToolStripMenuItem;
-        private System.Windows.Forms.Button button1;
     }
 }
 
