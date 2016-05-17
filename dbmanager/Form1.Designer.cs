@@ -31,13 +31,18 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.hejToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.endToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tvåToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.närvaroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.endToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.avslutaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tvåToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.hjälpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.omToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.omToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.visaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.närvarolistorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.medlemmarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.medlemToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.kontaktToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -46,6 +51,7 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem1,
             this.tvåToolStripMenuItem,
+            this.visaToolStripMenuItem,
             this.hjälpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
@@ -66,34 +72,36 @@
             // hejToolStripMenuItem
             // 
             this.hejToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.närvaroToolStripMenuItem});
+            this.närvaroToolStripMenuItem,
+            this.medlemToolStripMenuItem,
+            this.kontaktToolStripMenuItem});
             this.hejToolStripMenuItem.Name = "hejToolStripMenuItem";
             this.hejToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.hejToolStripMenuItem.Text = "Ny...";
             // 
+            // närvaroToolStripMenuItem
+            // 
+            this.närvaroToolStripMenuItem.Name = "närvaroToolStripMenuItem";
+            this.närvaroToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
+            this.närvaroToolStripMenuItem.Text = "Närvaro";
+            // 
             // endToolStripMenuItem
             // 
             this.endToolStripMenuItem.Name = "endToolStripMenuItem";
-            this.endToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.endToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
             this.endToolStripMenuItem.Text = "Inställningar";
+            // 
+            // avslutaToolStripMenuItem
+            // 
+            this.avslutaToolStripMenuItem.Name = "avslutaToolStripMenuItem";
+            this.avslutaToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
+            this.avslutaToolStripMenuItem.Text = "Avsluta";
             // 
             // tvåToolStripMenuItem
             // 
             this.tvåToolStripMenuItem.Name = "tvåToolStripMenuItem";
             this.tvåToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
             this.tvåToolStripMenuItem.Text = "Redigera";
-            // 
-            // närvaroToolStripMenuItem
-            // 
-            this.närvaroToolStripMenuItem.Name = "närvaroToolStripMenuItem";
-            this.närvaroToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.närvaroToolStripMenuItem.Text = "Närvaro";
-            // 
-            // avslutaToolStripMenuItem
-            // 
-            this.avslutaToolStripMenuItem.Name = "avslutaToolStripMenuItem";
-            this.avslutaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.avslutaToolStripMenuItem.Text = "Avsluta";
             // 
             // hjälpToolStripMenuItem
             // 
@@ -107,14 +115,47 @@
             // omToolStripMenuItem
             // 
             this.omToolStripMenuItem.Name = "omToolStripMenuItem";
-            this.omToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.omToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.omToolStripMenuItem.Text = "Visa hjälp";
             // 
             // omToolStripMenuItem1
             // 
             this.omToolStripMenuItem1.Name = "omToolStripMenuItem1";
-            this.omToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.omToolStripMenuItem1.Size = new System.Drawing.Size(124, 22);
             this.omToolStripMenuItem1.Text = "Om";
+            // 
+            // visaToolStripMenuItem
+            // 
+            this.visaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.närvarolistorToolStripMenuItem,
+            this.medlemmarToolStripMenuItem});
+            this.visaToolStripMenuItem.Name = "visaToolStripMenuItem";
+            this.visaToolStripMenuItem.Size = new System.Drawing.Size(40, 20);
+            this.visaToolStripMenuItem.Text = "Visa";
+            // 
+            // närvarolistorToolStripMenuItem
+            // 
+            this.närvarolistorToolStripMenuItem.Name = "närvarolistorToolStripMenuItem";
+            this.närvarolistorToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.närvarolistorToolStripMenuItem.Text = "Närvarolistor";
+            // 
+            // medlemmarToolStripMenuItem
+            // 
+            this.medlemmarToolStripMenuItem.Name = "medlemmarToolStripMenuItem";
+            this.medlemmarToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.medlemmarToolStripMenuItem.Text = "Medlemmar";
+            // 
+            // medlemToolStripMenuItem
+            // 
+            this.medlemToolStripMenuItem.Name = "medlemToolStripMenuItem";
+            this.medlemToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.medlemToolStripMenuItem.Text = "Medlem";
+            // 
+            // kontaktToolStripMenuItem
+            // 
+            this.kontaktToolStripMenuItem.Name = "kontaktToolStripMenuItem";
+            this.kontaktToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.kontaktToolStripMenuItem.Text = "Kontakt";
             // 
             // Form1
             // 
@@ -144,6 +185,11 @@
         private System.Windows.Forms.ToolStripMenuItem hjälpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem omToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem omToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem visaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem närvarolistorToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem medlemmarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem medlemToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem kontaktToolStripMenuItem;
     }
 }
 
